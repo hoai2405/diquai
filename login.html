@@ -1,0 +1,148 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+    <div class="container mt-3">
+
+        <nav class="navbar navbar-expand-md  navbar-light">
+                <a href="index.html" class="logo">
+                    <img src="Images/Nguyen Vu Duy Hoai.png" alt="" width="150px">
+                </a>
+                
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">TRANG CHỦ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sanpham.html" class="nav-link">SẢN PHẨM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">TIN TỨC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">BLOG</a>
+                    </li>
+                </ul>
+            </div>
+                <div id="actions">
+                    <div class="nav-item">
+                        <a href="login.html"><img src="Images/user.png" alt=""></a>
+                    </div>
+                    <div class="nav-item">
+                        <img src="Images/cart.png" alt="">
+                    </div>
+                </div>
+                </nav>
+            </div>
+
+
+        <div class="container">
+            <div class="login-container">
+                <div id="signin">
+                    <div class="title">
+                        <p>Sign In</p>
+                    </div>
+                    <div class="intro">
+                        <p>
+                            Để trở thành khách hàng vip, trước tiên bạn cần phải đăng nhập tài khoản của mình
+                        </p>
+                    </div>
+                    <form action="">
+
+                        <div>
+                            <input type="text" id="username" placeholder="Nhập tài khoản">
+                        </div>
+
+                        <div>
+                            <input type="password" name="" id="password" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="actions">
+                            <div id="remember-me">
+                                <input type="checkbox">
+                                <label for="remember-me">Ghi nhớ</label>
+                            </div>
+
+                            <div id="btn-login">
+                                <div class="signInBtn">
+                                    <p>Đăng Nhập</p>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="signInMethods">
+                                <div class="signIn_fb">
+                                    <img src="Images/fb.png" alt="" width="50px">
+                                    <p>Đăng nhập với tài khoản Facebook</p>
+                                </div>
+                                <div class="signIn_gg">
+                                    <img src="Images/gg.png" alt="" width="50px">
+                                    <p>Đăng nhập với tài khoản Google</p>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="footer">
+            <div class="box box1">
+                <div class="logo">
+                    <img src="images/Nguyen Vu Duy Hoai.png" alt="" width="180" height="150">
+                </div>
+                <p>Cung cấp sản phẩm với chất lượng an toàn cho quý khách</p>
+            </div>
+
+
+            <div class="box" id="box2">
+                <h3>NỘI DUNG</h3>
+                <ul class="quick-menu">
+                    <div class="item">
+                        <a href="">Trang chủ</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Sản phẩm</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Blog</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Liên hệ</a>
+                    </div>
+                </ul>
+            </div>
+            <div class="box" id="box2">
+                <h3>LIÊN HỆ</h3>
+                <form action="">0973605093
+                    <input type="text" placeholder="Địa chỉ email">
+                    <button>Nhận tin</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

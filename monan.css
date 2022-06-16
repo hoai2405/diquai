@@ -1,0 +1,180 @@
+
+
+*{
+    
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+
+}
+
+
+
+.content img{
+  border: 3px solid white;
+  border-radius: 50px;
+}
+.product-right{
+  
+    height: 100px;
+    width: 700px;
+    float: right;
+    
+}
+.product-conten-title{
+    color: black;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -360px ;
+}
+.product-conten-info-left{
+    color:black;
+    
+}
+.product-conten-info-right{
+    float: right;
+    margin-right: 70px;
+}
+.product-conten-info{
+    height: 10px;
+    
+   
+}
+
+
+
+
+.thong-so-box{
+    border-bottom: 1px solid #515e67;
+    padding: 20px 0;
+   
+}
+.thong-so-box p{
+    font-size: 15px;
+    color: black;
+    padding-bottom: 5px;
+}
+.thong-so-box p span {
+    color: black;
+    width: 200px;
+    display: inline-block;
+}
+.thong-so-box p .gia{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1px;
+}
+.button-btn .btn-installment{
+    margin-right: 5px;
+    text-decoration: n;
+}
+.button-btn{
+    font-weight: 800;
+    height: 100px;
+    padding: 5px 0;
+    border-bottom: 1px solid #515e67;
+    font-size: 14px;
+}
+.button{
+    color: black;
+    background: #ffea00;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+.button-btn .btn-buy{
+    margin-right: 5px;
+    text-decoration: none;
+}
+.button-btn a{
+    width: 345px;
+    height: 45px;
+    float: left;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+.button-btn>a>span{
+    font-weight: bold;
+    font-size: large;
+}
+.button-btn .btn-hotline{
+    width: 100%;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.button-btn a:hover{
+    background-color: rgb(236, 77, 14);
+    font-weight: bold;
+    color: #e4e8ee;
+}
+.chinh-sach-ban-hang{
+    margin-top: 10px;
+}
+.chinh-sach-ban-hang img{
+    height: 95px;
+    margin-left: 50px;
+}
+.product-single-box {
+    height: 900px;
+    border: 2px solid #3f4952;
+    max-width: 1232px;
+    position: absolute;
+    margin-top:640px;
+}
+.priduct-tab .tab-header{
+    background: #3f4952;
+}
+.tab-header{
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+}
+.tab-header ul{
+    list-style: none;
+}
+.tab-header li{
+    float: left;
+}
+.iframe-box{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.product-tab .tab-header li a{
+    font-weight: bold;
+    display: block;
+    padding: 12px 30px;
+    background: #ffea00;
+    color: #000;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.class-header-box{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    
+}
+.product-title{
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.col-md-6-left{
+    
+    width: 50%;
+}
+.col-md-6-right{
+    float:right;
+    width: 50%;
+}
+#wp-products {
+    padding-top: 116px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 134px;
+    margin-top: 40px;
+}
